@@ -1,0 +1,19 @@
+{
+  "name": "serverless-youtube",
+  "version": "1.0.0",
+  "description": "A Serverless Youtube clone",
+  "local-web-server": {
+    "port": 8100,
+    "forbid": "*.json"
+  },
+  "scripts": {
+    "start": "npm run start",
+    "deploy": "aws s3 sync s3://xboxcure.com"
+  },
+  "author": "Jason Kwong",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "local-web-server": "^1.1.0"
+  },
+  "dependencies": {}
+}
